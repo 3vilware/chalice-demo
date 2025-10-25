@@ -1,5 +1,23 @@
 {
-  "resources": [],
+  "resources": [
+    {
+      "name": "default-role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::178659809097:role/helloworld-dev",
+      "role_name": "helloworld-dev"
+    },
+    {
+      "name": "api_handler",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:us-east-1:178659809097:function:helloworld-dev"
+    },
+    {
+      "name": "rest_api",
+      "resource_type": "rest_api",
+      "rest_api_id": "kdjvl27cx1",
+      "rest_api_url": "https://kdjvl27cx1.execute-api.us-east-1.amazonaws.com/api/"
+    }
+  ],
   "schema_version": "2.0",
   "backend": "api"
 }

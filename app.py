@@ -9,7 +9,7 @@ def index():
 
 @app.route('/health')
 def index():
-    return {'status': 'ok'}
+    return {'status': 'TODO BIEN DESDE PYTHONISTAS'}
 
 
 # The view function above will return {"hello": "world"}
